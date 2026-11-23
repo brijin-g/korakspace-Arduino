@@ -1,0 +1,31 @@
+{
+  "packages": [
+    {
+      "name": "korakspace",
+      "maintainer": "Korakspace",
+      "websiteURL": "https://github.com/brijin-g/korakspace-Arduino",
+      "platforms": [
+        {
+          "name": "Korakspace RISC-V FPGA Boards",
+          "architecture": "riscv",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/brijin-g/korakspace-Arduino#readme"
+          },
+          "url": "https://github.com/brijin-g/korakspace-Arduino/releases/download/v0.1.0/korakspace-riscv-0.1.0.tar.gz",
+          "archiveFileName": "korakspace-riscv-0.1.0.tar.gz",
+          "checksum": "SHA-256:e630f3338cdfe95b836722088937fb116a0313a42d2619a520637b59b1bd8c55",
+          "size": "6501",
+          "boards": [
+            {
+              "name": "Korakspace DE0-Nano (RV32I)"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
